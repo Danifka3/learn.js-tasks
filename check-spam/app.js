@@ -1,6 +1,6 @@
 function checkSpam(str) {
-    str = str.toLocaleLowerCase();
-    return str.includes('viagra') || str.includes('xxx');
+    let lowerStr = str.toLocaleLowerCase();
+    return lowerStr.includes('viagra') || str.includes('xxx');
 }
 
 console.log(checkSpam('buy ViAgRA now'));
